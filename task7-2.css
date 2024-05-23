@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+main > * {
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: green;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+h1 {
+  font-family: Karol;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-image: "OIP (2).jpg";
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  height: 100%;
+}

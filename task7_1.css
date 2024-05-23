@@ -1,0 +1,43 @@
+body {
+  background-color: lightyellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  background-color: #efefef;
+  margin: auto;
+  padding: 4vh;
+  border-radius: 10vh;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+}
+
+.texter {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.imager {
+  width: 20%;
+  /* background-color: blue; */
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+hr {
+  /* color: blue; */
+  width: 100%;
+}
